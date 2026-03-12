@@ -35,18 +35,10 @@
   flex-shrink: 0;
 }
 
-.navbar__logo-icon {
-  color: #6366f1;
-  font-size: 1.2rem;
-  filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.6));
-}
-
-.navbar__logo-text {
-  font-family: var(--font-outfit), sans-serif;
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: #0f172a;
-  letter-spacing: -0.03em;
+.navbar__logo-img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
 }
 
 .navbar__links {

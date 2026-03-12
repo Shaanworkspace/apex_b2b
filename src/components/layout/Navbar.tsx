@@ -31,8 +31,7 @@ export default function Navbar() {
       <div className="navbar__inner container">
         {/* Logo */}
         <Link href="#home" className="navbar__logo">
-          <span className="navbar__logo-icon" aria-hidden="true">▲</span>
-          <span className="navbar__logo-text">Apex</span>
+          <img src="/logo.png" alt="Apex Logo" className="navbar__logo-img" />
         </Link>
 
         {/* Desktop links */}

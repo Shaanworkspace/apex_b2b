@@ -16,8 +16,7 @@ export default function Footer() {
         <div className="footer__inner">
           <div className="footer__brand">
             <Link href="#home" className="footer__logo">
-              <span className="footer__logo-icon" aria-hidden="true">▲</span>
-              <span className="footer__logo-text">Apex</span>
+              <img src="/logo.png" alt="Apex Logo" className="footer__logo-img" />
             </Link>
             <p className="footer__tagline">
               AI-powered sales training for modern B2B teams.

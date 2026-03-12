@@ -35,7 +35,7 @@ export default function HeroSection() {
             </p>
           </Reveal>
 
-          <Reveal delay={300}>
+          {/* <Reveal delay={300}>
             <p className="hero__description">
               Your sales team learns the exact workflows modern B2B companies use
               to run prospecting, outreach, CRM management, and pipeline tracking
@@ -45,7 +45,7 @@ export default function HeroSection() {
               This is not theory. During the program your team builds real systems
               for your company&apos;s product, market, and customers.
             </p>
-          </Reveal>
+          </Reveal> */}
 
           <Reveal delay={400}>
             <div className="hero__ctas">
@@ -61,24 +61,6 @@ export default function HeroSection() {
             </div>
           </Reveal>
 
-          <Reveal delay={500}>
-            <div className="hero__stats">
-              <div className="hero__stat">
-                <span className="hero__stat-num">20+</span>
-                <span className="hero__stat-label">Companies Trained</span>
-              </div>
-              <div className="hero__stat-divider" />
-              <div className="hero__stat">
-                <span className="hero__stat-num">9</span>
-                <span className="hero__stat-label">Core Modules</span>
-              </div>
-              <div className="hero__stat-divider" />
-              <div className="hero__stat">
-                <span className="hero__stat-num">100%</span>
-                <span className="hero__stat-label">Hands-On Building</span>
-              </div>
-            </div>
-          </Reveal>
         </div>
 
         <div className="hero__right">
@@ -88,10 +70,36 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="hero__scroll-hint" aria-hidden="true">
+      <div className="container hero__stats-container">
+        <Reveal delay={500}>
+          <div className="hero__stats">
+            <div className="hero__stat">
+              <span className="hero__stat-num">20+</span>
+              <span className="hero__stat-label">Companies Trained</span>
+            </div>
+            <div className="hero__stat-divider" />
+            <div className="hero__stat">
+              <span className="hero__stat-num">100%</span>
+              <span className="hero__stat-label">Hands-On Implementation</span>
+            </div>
+            <div className="hero__stat-divider" />
+            <div className="hero__stat">
+              <span className="hero__stat-num" style={{ fontSize: "1.3rem" }}>2 Consulting Sessions</span>
+              <span className="hero__stat-label">Per Employee</span>
+            </div>
+            <div className="hero__stat-divider" />
+            <div className="hero__stat">
+              <span className="hero__stat-num" style={{ fontSize: "1.3rem" }}>Automation Workflows</span>
+              <span className="hero__stat-label">Built for Your Pipeline</span>
+            </div>
+          </div>
+        </Reveal>
+      </div>
+
+      {/* <div className="hero__scroll-hint" aria-hidden="true">
         <div className="hero__scroll-line" />
         <span>Scroll to explore</span>
-      </div>
+      </div> */}
 
 
     </section>
